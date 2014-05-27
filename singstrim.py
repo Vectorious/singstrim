@@ -43,4 +43,4 @@ def sing_is_strimming():
 	return '"stream":null' not in requests.get('https://api.twitch.tv/kraken/streams/sing_sing').text
 
 if __name__ == '__main__':
-	app.run('0.0.0.0')
+	app.run()
