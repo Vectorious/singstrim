@@ -1,19 +1,55 @@
+* {
+	margin: 0;
+}
+
 a {
 	text-decoration: none;
 	color: #482D79;
+}
+
+html, body {
+	height: 100%;
+	text-align: center;
 }
 
 .large {
 	font-family: 'Oswald', sans-serif;
 	font-size: 40pt;
 	text-align: center;
-	margin: .5em;
+	padding-top: 0.5em;
+	padding-bottom: 75px;
 }
 
 .update {
-	font-size: medium;
-	font-style: italic;
-	color: #D3D3D3;
+	font-size: small;
+	font-family: Verdana, sans-serif;
+	color: #888888;
 	text-align: center;
 	vertical-align: text-bottom;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+}
+
+.footer, .push {
+	height: 4em;
+}
+
+.transmouse {
+	opacity: 0.5;
+}
+
+#showtoggle {	
+}
+
+#copypasta {
+	font-family: Verdana, sans-serif;
+	display: none;
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 75px;
 }

@@ -1,1 +1,1 @@
-web: gunicorn sincesingstrim:app
+web: gunicorn singstrim:app
