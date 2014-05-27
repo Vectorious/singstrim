@@ -10,7 +10,8 @@ def index():
 	update = update.isoformat(' ')[:-13]
 	difference = now - laststrim
 	years = '{:f}'.format((difference.days + difference.seconds/86400) / timedelta(365).days)
-	return render_template('index.html', years=years, update=update, live=live)
+	human_difference = '{} days {} hours'.format(difference.days, difference.seconds//3600)
+	return render_template('index.html', years=years, update=update, live=live, human_difference=human_difference)
 
 def get_last_strim():
 	try:
