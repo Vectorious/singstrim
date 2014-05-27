@@ -1,3 +1,3 @@
 venv
 *.pyc
-*/strim_info.json
+strim_info.json
