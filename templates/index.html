@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+	<title>when sing strim</title>
+	<head>
+		<link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<p class=large>
+		{% if live %}
+			<a href="http://www.twitch.tv/sing_sing">SING STRIM FOR FIRST TIME IN {{ years }} YEARS
+			<center><img height=300px src="http://i.imgur.com/m6UKe0E.png"></center></a>
+		{% else %}
+			{{ years }} years since sing strim
+		{% endif %}
+		</p>
+		<p class=update>
+			Last updated {{ update }} UTC
+		</p>
+	</body>
+</html>
