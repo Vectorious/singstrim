@@ -15,7 +15,6 @@ html, body {
 .large {
 	font-family: 'Oswald', sans-serif;
 	font-size: 40pt;
-	text-align: center;
 	padding-top: 0.5em;
 	padding-bottom: 75px;
 }
@@ -24,7 +23,6 @@ html, body {
 	font-size: small;
 	font-family: Verdana, sans-serif;
 	color: #888888;
-	text-align: center;
 	vertical-align: text-bottom;
 }
 
@@ -41,9 +39,6 @@ html, body {
 
 .transmouse {
 	opacity: 0.5;
-}
-
-#showtoggle {	
 }
 
 #copypasta {
