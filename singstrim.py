@@ -24,7 +24,7 @@ def get_last_strim():
 	except IOError:
 		info = {
 			'lastupdate': 0.0,
-			'laststrim': datetime.now(timezone.utc) - timedelta(years=10),
+			'laststrim': (datetime.now(timezone.utc) - timedelta(years=10)).timestamp(),
 			'lastlive': False
 		}
 	now = datetime.now(timezone.utc)
